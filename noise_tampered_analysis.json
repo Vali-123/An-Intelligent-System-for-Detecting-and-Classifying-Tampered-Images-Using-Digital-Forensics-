@@ -1,0 +1,42 @@
+{
+  "image_path": "noise_tampered.jpg",
+  "image_name": "noise_tampered.jpg",
+  "image_shape": [
+    600,
+    800,
+    3
+  ],
+  "analysis": {
+    "copy_move": {
+      "matches": 1014,
+      "confidence": 1.0,
+      "description": "Detects duplicated regions within the image"
+    },
+    "noise_analysis": {
+      "outliers": 31,
+      "confidence": 1.0,
+      "description": "Identifies inconsistent noise distributions"
+    },
+    "jpeg_artifacts": {
+      "suspicious_blocks": 493,
+      "confidence": 1.0,
+      "description": "Analyzes compression inconsistencies"
+    },
+    "lighting": {
+      "inconsistent_regions": 3,
+      "confidence": 0.12,
+      "description": "Detects unnatural lighting variations"
+    },
+    "edge_artifacts": {
+      "suspicious_edges": 2,
+      "confidence": 0.2,
+      "description": "Identifies suspicious edge patterns from splicing"
+    }
+  },
+  "overall_assessment": {
+    "tampering_confidence": 0.664,
+    "likely_tampered": true,
+    "severity": "Medium"
+  },
+  "interpretation": "\u26a0\ufe0f MEDIUM likelihood of tampering detected. Some suspicious patterns found, requires closer inspection."
+}

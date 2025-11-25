@@ -1,0 +1,5 @@
+(1	, "Keyboard" , 	400	,4)
+(2	, "Mouse"	, 300	,4)
+(3	, "Monitor"	, 12000	,3)
+(4	, "Keyboard"	, 400	,1)
+(5	, "Mousepad"	, 250	,2)

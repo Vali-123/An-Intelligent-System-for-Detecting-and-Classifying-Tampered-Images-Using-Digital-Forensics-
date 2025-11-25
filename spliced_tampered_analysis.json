@@ -1,0 +1,42 @@
+{
+  "image_path": "spliced_tampered.jpg",
+  "image_name": "spliced_tampered.jpg",
+  "image_shape": [
+    600,
+    800,
+    3
+  ],
+  "analysis": {
+    "copy_move": {
+      "matches": 5252,
+      "confidence": 1.0,
+      "description": "Detects duplicated regions within the image"
+    },
+    "noise_analysis": {
+      "outliers": 30,
+      "confidence": 1.0,
+      "description": "Identifies inconsistent noise distributions"
+    },
+    "jpeg_artifacts": {
+      "suspicious_blocks": 102,
+      "confidence": 1.0,
+      "description": "Analyzes compression inconsistencies"
+    },
+    "lighting": {
+      "inconsistent_regions": 11,
+      "confidence": 0.44,
+      "description": "Detects unnatural lighting variations"
+    },
+    "edge_artifacts": {
+      "suspicious_edges": 3,
+      "confidence": 0.30000000000000004,
+      "description": "Identifies suspicious edge patterns from splicing"
+    }
+  },
+  "overall_assessment": {
+    "tampering_confidence": 0.748,
+    "likely_tampered": true,
+    "severity": "High"
+  },
+  "interpretation": "\ud83d\udea8 HIGH likelihood of tampering detected! Multiple detection methods show strong evidence of manipulation."
+}

@@ -1,0 +1,13 @@
+{
+  "creation_date": "2025-07-23T10:06:20.939670",
+  "total_images": 100,
+  "authentic_count": 50,
+  "tampered_count": 50,
+  "tampering_types": [
+    "copy_move",
+    "splicing",
+    "noise_injection",
+    "lighting_modification",
+    "compression_artifacts"
+  ]
+}

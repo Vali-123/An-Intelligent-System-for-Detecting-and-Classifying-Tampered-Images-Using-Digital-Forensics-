@@ -1,0 +1,21 @@
+{
+  "dataset_info": {
+    "name": "Celebrity Tampering Detection Dataset",
+    "version": "1.0",
+    "created_date": "2025-07-23 10:16:58",
+    "total_images": 100,
+    "original_images": 50,
+    "tampered_images": 50
+  },
+  "categories": {
+    "original": "Unmodified celebrity images",
+    "tampered": "Modified images with various tampering techniques"
+  },
+  "tampering_techniques": [
+    "copy_move_forgery",
+    "splicing",
+    "lighting_change",
+    "noise_addition",
+    "compression_artifacts"
+  ]
+}

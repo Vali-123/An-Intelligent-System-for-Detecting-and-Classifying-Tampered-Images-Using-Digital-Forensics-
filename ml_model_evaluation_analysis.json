@@ -1,0 +1,42 @@
+{
+  "image_path": "ml_model_evaluation.png",
+  "image_name": "ml_model_evaluation.png",
+  "image_shape": [
+    3543,
+    4468,
+    3
+  ],
+  "analysis": {
+    "copy_move": {
+      "matches": 856163,
+      "confidence": 1.0,
+      "description": "Detects duplicated regions within the image"
+    },
+    "noise_analysis": {
+      "outliers": 1010,
+      "confidence": 1.0,
+      "description": "Identifies inconsistent noise distributions"
+    },
+    "jpeg_artifacts": {
+      "suspicious_blocks": 4676,
+      "confidence": 1.0,
+      "description": "Analyzes compression inconsistencies"
+    },
+    "lighting": {
+      "inconsistent_regions": 781,
+      "confidence": 1.0,
+      "description": "Detects unnatural lighting variations"
+    },
+    "edge_artifacts": {
+      "suspicious_edges": 91,
+      "confidence": 1.0,
+      "description": "Identifies suspicious edge patterns from splicing"
+    }
+  },
+  "overall_assessment": {
+    "tampering_confidence": 1.0,
+    "likely_tampered": true,
+    "severity": "High"
+  },
+  "interpretation": "\ud83d\udea8 HIGH likelihood of tampering detected! Multiple detection methods show strong evidence of manipulation."
+}

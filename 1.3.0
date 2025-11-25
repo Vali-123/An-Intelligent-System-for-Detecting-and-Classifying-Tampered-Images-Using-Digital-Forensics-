@@ -1,0 +1,9 @@
+Collecting opencv-python==4.8.1.78
+  Downloading opencv_python-4.8.1.78-cp37-abi3-win_amd64.whl.metadata (20 kB)
+Collecting numpy==1.24.3
+  Downloading numpy-1.24.3.tar.gz (10.9 MB)
+     ---------------------------------------- 10.9/10.9 MB 6.0 MB/s eta 0:00:00
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
