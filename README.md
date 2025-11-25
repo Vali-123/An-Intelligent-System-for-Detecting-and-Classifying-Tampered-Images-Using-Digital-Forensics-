@@ -1,0 +1,2 @@
+# An-Intelligent-System-for-Detecting-and-Classifying-Tampered-Images-Using-Digital-Forensics-
+Image tampering has become a critical issue in today’s digital world, where advanced editing tools and AI-driven manipulation techniques make it increasingly easy to alter images without leaving obvious traces. As a result, verifying the authenticity of digital images is now essential across multiple fields, including journalism.
